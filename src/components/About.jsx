@@ -37,7 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Experienced web designer and front-end developer adept at creating visually appealing, user-friendly websites. Proficient in HTML, CSS, JavaScript, and responsive design. Strong grasp of cross-browser compatibility. Committed to staying current with industry trends. Seeking impactful opportunities to deliver outstanding digital experiences and currently expanding skills in React.js
+        Experienced web designer and front-end developer adept at creating visually appealing, user-friendly websites. Proficient in HTML, CSS, JavaScript, and responsive design. Strong grasp of cross-browser compatibility. Committed to staying current with industry trends. Seeking impactful opportunities to deliver outstanding digital experiences and currently expanding skills in React.js and enhancing my video editin skills for my own purpose.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

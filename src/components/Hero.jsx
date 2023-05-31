@@ -3,8 +3,22 @@ import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { raj, bwmap, worldmap } from '../assets';
+import TextTransition, { presets } from 'react-text-transition';
+import { useState,useEffect } from 'react';
 
+
+const TEXTS = ['Web Designer', 'Front-end Developer', 'Learner', 'Achiever'];
 const Hero = () => {
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      2000, // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
+
   return (
     <>
       <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
@@ -45,10 +59,15 @@ const Hero = () => {
                 Rajeev
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              I Build things for the <br className="sm:block hidden" />
-              Web
-            </p>
+            {/* <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
+               <br className="sm:block hidden" />
+             
+            </p> */}
+            <h2 className="sm:text-Black sm:text-[25px] 
+                text-eerieBlack text-[15px] font-mova
+                font-extrabold uppercase">
+              <TextTransition springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition>
+            </h2>
           </div>
           <div
             className="w-screen flex flex-col items-start 

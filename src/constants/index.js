@@ -96,26 +96,26 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "Rails",
-    icon: python,
-  },
-  {
-    name: "graphql",
-    icon: graphql,
-  },
-  {
-    name: "postgresql",
-    icon: postgresql,
-  },
+  // {
+  //   name: "Rails",
+  //   icon: python,
+  // },
+  // {
+  //   name: "graphql",
+  //   icon: graphql,
+  // },
+  // {
+  //   name: "postgresql",
+  //   icon: postgresql,
+  // },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "NextJs",
     icon: next,
@@ -125,32 +125,32 @@ const technologies = [
 const experiences = [
   {
     title: "Front-End Developer",
-    company_name: "Cover Hunt",
+    company_name: "Innovative Buddies",
     icon: coverhunt,
     iconBg: "#333333",
-    date: "Aug 2021 - Feb 2022",
+    date: "Jun 2020 - Aug 2021",
   },
   {
-    title: "Mentor (Volunteer)",
-    company_name: "Microverse",
+    title: "Web Designer",
+    company_name: "Infosec Ventures",
     icon: microverse,
     iconBg: "#333333",
-    date: "Mar 2022 - May 2022",
+    date: "Aug 2021 - Present",
   },
-  {
-    title: "Junior Software Engineer",
-    company_name: "Kelhel",
-    icon: kelhel,
-    iconBg: "#333333",
-    date: "May 2022 - Oct 2022",
-  },
-  {
-    title: "Full Stack Developer",
-    company_name: "Diversity Cyber Council",
-    icon: dcc,
-    iconBg: "#333333",
-    date: "Sep 2022 - Present",
-  },
+  // {
+  //   title: "Junior Software Engineer",
+  //   company_name: "Kelhel",
+  //   icon: kelhel,
+  //   iconBg: "#333333",
+  //   date: "May 2022 - Oct 2022",
+  // },
+  // {
+  //   title: "Full Stack Developer",
+  //   company_name: "Diversity Cyber Council",
+  //   icon: dcc,
+  //   iconBg: "#333333",
+  //   date: "Sep 2022 - Present",
+  // },
 ];
 
 const projects = [

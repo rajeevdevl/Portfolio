@@ -96,10 +96,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "Rails",
-  //   icon: python,
-  // },
+  {
+    name: "Python",
+    icon: python,
+  },
   // {
   //   name: "graphql",
   //   icon: graphql,

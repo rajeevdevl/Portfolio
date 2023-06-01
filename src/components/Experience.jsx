@@ -118,7 +118,7 @@ const Experience = () => {
               }}>
               MY RESUME
               <img
-                src={download /}
+                src={download}
                 alt="download"
                 className="download-btn sm:w-[26px] sm:h-[26px] 
                 w-[23px] h-[23px] object-contain"

@@ -55,7 +55,7 @@ const Hero = () => {
             >
               Hi, I'm{" "}
               <span
-                className="sm:text-Black sm:text-[90px] 
+                className="sm:text-white sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase"
               >
@@ -67,7 +67,7 @@ const Hero = () => {
              
             </p> */}
             <h2
-              className="sm:text-Black sm:text-[25px] 
+              className="sm:text-gold sm:text-[25px] 
                 text-eerieBlack text-[15px] font-mova
                 font-extrabold uppercase"
             >

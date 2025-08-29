@@ -37,7 +37,7 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+        variants={fadeIn("", "", 0, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
         Front-End Web Developer with 4+ years of experience building scalable,

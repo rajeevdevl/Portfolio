@@ -21,12 +21,15 @@ import {
   hflanding,
   emailauth,
   movie,
-  nyeusi,
+  omnifood,
   space,
   coverhunt,
   dcc,
   kelhel,
   microverse,
+  tb,
+  iv,
+  modlai,
 } from "../assets";
 
 export const navLinks = [
@@ -46,20 +49,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend Developer",
+    title: "",
+    icon: reactjs,
+  },
+  {
+    title: "",
     icon: frontend,
   },
   {
-    title: "Email Template Designs",
-    icon: backend,
+    title: "",
+    icon: javascript,
   },
   {
-    title: "Web Designer",
-    icon: ux,
-  },
-  {
-    title: "Video Editing",
-    icon: prototyping,
+    title: "",
+    icon: nodejs,
   },
 ];
 
@@ -124,18 +127,18 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Front-End Developer",
-    company_name: "Innovative Buddies",
-    icon: coverhunt,
-    iconBg: "#333333",
-    date: "Jun 2020 - Aug 2021",
-  },
-  {
     title: "Web Designer",
     company_name: "Infosec Ventures",
-    icon: microverse,
+    icon: iv,
     iconBg: "#333333",
-    date: "Aug 2021 - Present",
+    date: "Aug 2021 - Dec 2023",
+  },
+  {
+    title: "Web Developer",
+    company_name: "True Blue",
+    icon: tb,
+    iconBg: "#333333",
+    date: "Jan 2024 - Present",
   },
   // {
   //   title: "Junior Software Engineer",
@@ -202,8 +205,9 @@ const projects = [
   },
   {
     id: "project-3",
-    name: "Email Auth",
-    description: "This is a Landing page for the Email Auth",
+    name: "Security Rating",
+    description:
+      "Security monitoring across your entire vendor ecosystem and supply chain",
     tags: [
       {
         name: "nextjs",
@@ -219,12 +223,12 @@ const projects = [
       },
     ],
     image: emailauth,
-    repo: "https://github.com/rajeevdevl/EmailAuthLanding",
-    demo: "https://rajeevdevl.github.io/EmailAuthLanding/",
+    repo: "https://securityrating.com/",
+    demo: "https://securityrating.com/",
   },
   {
     id: "project-4",
-    name: "Movie Metro",
+    name: "Modl ai",
     description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
     tags: [
       {
@@ -240,15 +244,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: movie,
-    repo: "https://github.com/shaqdeff/Movie-Metro",
-    demo: "https://movie-metro.netlify.app/",
+    image: modlai,
+    repo: "https://modl.ai/",
+    demo: "https://modl.ai/",
   },
   {
     id: "project-5",
-    name: "Nyeusi Fest Site",
-    description:
-      "This is a demo concert website for a music festival called Nyeusi.",
+    name: "Omnifood Web App",
+    description: "A healthy meal delivered to your door, every single day",
     tags: [
       {
         name: "nextjs",
@@ -263,9 +266,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: nyeusi,
-    repo: "https://github.com/shaqdeff/Nyeusi-Fest-Site",
-    demo: "https://shaqdeff.github.io/Nyeusi-Fest-Site/",
+    image: omnifood,
+    repo: "https://github.com/rajeevdevl/Omnifood/tree/master/omnifood-app",
+    demo: "https://omnifood-web-app.web.app/",
   },
 ];
 

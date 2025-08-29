@@ -41,12 +41,15 @@ import coverhunt from "./company/coverhunt.png";
 import dcc from "./company/dcc.png";
 import kelhel from "./company/kelhel.png";
 import microverse from "./company/microverse.png";
+import tb from "./company/tb.png";
+import iv from "./company/iv.jpeg";
 
 import hfio from "./projects/hfio.png";
 import hflanding from "./projects/hflanding.png";
 import emailauth from "./projects/emailauth.png";
 import movie from "./projects/movie-metro.png";
-import nyeusi from "./projects/nyeusi.png";
+import omnifood from "./projects/omnifood.png";
+import modlai from "./projects/modlai.png";
 import space from "./projects/space-hub.png";
 
 export {
@@ -89,10 +92,13 @@ export {
   hflanding,
   emailauth,
   movie,
-  nyeusi,
   space,
   coverhunt,
   dcc,
   kelhel,
   microverse,
+  tb,
+  iv,
+  omnifood,
+  modlai,
 };

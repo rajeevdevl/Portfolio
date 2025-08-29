@@ -1,26 +1,28 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { styles } from '../styles';
-import { services } from '../constants';
-import { fadeIn, textVariant } from '../utils/motion';
-import { SectionWrapper } from '../hoc';
+import React from "react";
+import { motion } from "framer-motion";
+import { styles } from "../styles";
+import { services } from "../constants";
+import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <motion.div
-      variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
-      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card">
+      variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card"
+    >
       <div
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-jetLight rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
-        <img src={icon} alt={title} className="w-16 h-16 object-contain" />
-        <h3 className="text-taupe text-[18px] font-bold text-center">
+        className="bg-jetLight rounded-[20px] py-5 px-12 min-h-[200px] flex justify-evenly items-center flex-col"
+      >
+        <img src={icon} alt={title} className="w-16 h-20 object-contain" />
+        {/* <h3 className="text-taupe text-[18px] font-bold text-center">
           {title}
-        </h3>
+        </h3> */}
       </div>
     </motion.div>
   );
@@ -35,9 +37,16 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Experienced web designer and front-end developer adept at creating visually appealing, user-friendly websites. Proficient in HTML, CSS, JavaScript, and responsive design. Strong grasp of cross-browser compatibility. Committed to staying current with industry trends. Seeking impactful opportunities to deliver outstanding digital experiences and currently expanding skills in React.js and enhancing my video editin skills for my own purpose.
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
+      >
+        Front-End Web Developer with 4+ years of experience building scalable,
+        high-performance applications using ReactJS, JavaScript, and modern
+        frameworks. Skilled at delivering clean, accessible UI with a focus on
+        performance optimization, cross-browser compatibility, and user-centered
+        design. Eager to transition into Full Stack Development with Backend
+        Skills. Strong Problem-Solving Abilities and Proven Track Record in
+        Delivering Scalable Solutions.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -49,4 +58,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, 'about');
+export default SectionWrapper(About, "about");

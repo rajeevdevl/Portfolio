@@ -3582,7 +3582,7 @@ No matching component was found for:
         whitespace-nowrap sm:text-[27px] text-[18px] text-timberWolf tracking-[1px]
         absolute z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
         leading-none z-20`,children:e})}):se.jsx(se.Fragment,{children:se.jsxs("div",{className:`absolute bottom-0 p-8 justify-start w-full 
-            flex-col bg-[rgba(122,122,122,0.5)] rounded-b-[24px] z-20`,children:[se.jsx("div",{className:"absolute inset-0 flex justify-end m-3",children:se.jsx("div",{onClick:()=>window.open(r,"_blank"),className:`bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
+            flex-col bg-[rgba(122,122,122,0.9)] rounded-b-[24px] z-20`,children:[se.jsx("div",{className:"absolute inset-0 flex justify-end m-3",children:se.jsx("div",{onClick:()=>window.open(r,"_blank"),className:`bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
                   flex justify-center items-center cursor-pointer
                   sm:opacity-[0.9] opacity-[0.8]`,children:se.jsx("img",{src:TX,alt:"source code",className:"w-4/5 h-4/5 object-contain"})})}),se.jsx("h2",{className:`font-bold sm:text-[32px] text-[24px] 
               text-timberWolf uppercase font-beckman sm:mt-0 -mt-[1rem]`,children:e}),se.jsx("p",{className:`text-silver sm:text-[14px] text-[12px] 
